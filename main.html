@@ -1,0 +1,34 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wzidth=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Lista de afazeres</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Lista de tarefas</h1>
+    </div>
+    <section id="table">
+    <form > 
+    <div class="input-data">
+        <input id="name" type="text" class="input-name" placeholder="Nome">
+        <input id="date" type="date" class="input-date" placeholder="Data">
+        <input id="comments" type="text" class="input-comments" placeholder="Observações">
+        
+        <button type="submit" class="button-task-add" onclick="myfunction()">Ir!</button>
+    </div>
+   </form>
+    <table class="table-list-add" id="listAdd">
+       <tr id="0">
+           <th></th>
+           <th></th>
+           <th></th>
+       </tr>
+    </table>
+    <button type="reset" class="button-reset"> Limpar tudo</button>
+</section>
+<script src="/msin.js" ></script>
+</body>
+</html>
